@@ -10,7 +10,7 @@ const Menu = () => {
 
                 <p className='text-white text-center font-base text-[1.2rem] tracking-wide'>Menu That Fits Your Palatte</p>
                 <div className=' text-center'>
-                        <Image src = "/spoon.png" width={45} height = {12} />
+                        <Image src = "/spoon.png" width={45} height = {12} alt ="img" />
                 </div>
                 <h1 className='text-golden-color text-center text-6xl font-base mt-8 tracking-wider'>Today's Special</h1>
 
@@ -40,7 +40,7 @@ const Menu = () => {
 
                     <div className='px-5 flex-1'>
                         <div className='relative h-[85vh] my-10 '>
-                            <Image src="/menu.png" layout='fill' objectFit='contain' />
+                            <Image src="/menu.png" layout='fill' objectFit='contain' alt ="img" />
                         </div>
                     </div>
 

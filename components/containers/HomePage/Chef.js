@@ -9,21 +9,21 @@ const Chef = () => {
 
                 <div className='w-full lg:w-1/2'>
                     <div className='w-[90%] md:w-[70%] lg:w-[80%]  aspect-[8/10] relative mx-auto'>
-                        <Image src= "/chef.png" layout='fill' objectFit='cover' />
+                        <Image src= "/chef.png" layout='fill' objectFit='cover' alt ="img" />
                     </div>
                 </div>
 
                 <div className='mt-16 lg:mt-0 px-8 lg:w-1/2'>
                     <p className='text-white text-[19px] tracking-wide font-base capitalize'>Chef's Word</p>
                     <div className='mb-5 w-[50px] h-[15px] relative'>
-                        <Image src="/spoon.png" layout='fill' objectFit='contain' />
+                        <Image src="/spoon.png" layout='fill' objectFit='contain' alt ="img" />
                     </div>
                     <h1 className='text-golden-color text-6xl font-base mt-8 tracking-wide'>What We Believe In</h1>
 
                     <div className='leading-[1.8] my-16'>
                         <div className='flex gap-2 items-end'>
                             <div className='relative w-[60px] h-[60px]'>
-                                <Image src="/quote.png" layout='fill' objectFit = "contain" />
+                                <Image src="/quote.png" layout='fill' objectFit = "contain" alt ="img" />
                             </div>
                             <p className='text-white text-[15px] '>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit Auctor Sit .</p>
                         </div>
@@ -36,7 +36,7 @@ const Chef = () => {
                     </div>
 
 
-                    <Image src = "/sign.png" width={250} height = {100} />
+                    <Image src = "/sign.png" width={250} height = {100} alt ="img" />
 
                 </div>
 

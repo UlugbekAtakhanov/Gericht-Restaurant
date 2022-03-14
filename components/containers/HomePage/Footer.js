@@ -16,10 +16,10 @@ const Footer = () => {
 
                 <div className='flex-1'>
                     <div className='text-center text-white px-6 flex flex-col gap-3 items-center'>
-                        <Image src="/gericht.png" width={230} height={66} />
+                        <Image src="/gericht.png" width={230} height={66} alt ="img" />
                         <p>"The Best Way To Find Yourself Is To Lose Yourself In The Service Of Others."</p>
                         <div>
-                            <Image src = "/spoon.png" width={45} height = {12} />
+                            <Image src = "/spoon.png" width={45} height = {12} alt ="img" />
                         </div>
                         <div className='flex items-center justify-center gap-4 text-2xl'>
                             <FiFacebook className='hover:text-golden-color cursor-pointer' />

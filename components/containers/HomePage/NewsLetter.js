@@ -9,7 +9,7 @@ const NewsLetter = () => {
                 <div className=' py-8 sm:border border-golden-color rounded bg-black-color sm:px-12 md:w-[80%] md:mx-auto'>
                     <h1 className=' text-xl  text-white tracking-wider font-base leading-[1]'>Newsletter</h1>
                     <div>
-                        <Image src = "/spoon.png" width={45} height = {12} />
+                        <Image src = "/spoon.png" width={45} height = {12} alt ="img" />
                     </div>
                     <h1 className='text-7xl text-golden-color font-base tracking-wider mt-8'>Subscribe To Our Newsletter</h1>
                     <p className='text-white mt-2'>And Never Miss Latest Updates!</p>

@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className='bg-black-color'>
             <div className="  flex items-center justify-between py-2 px-6 xl:container mx-auto">
                 <div className=' relative w-[120px] lg:w-[170px] aspect-[16/6]'>
-                    <Image src="/gericht.png" objectFit='contain'  layout='fill' quality={100} />
+                    <Image src="/gericht.png" objectFit='contain'  layout='fill' quality={100} alt ="img" />
                 </div>
                 <ul className=' hidden md:flex items-center flex-1 justify-center gap-8'>
                     {navbarList.map((item, index) => {

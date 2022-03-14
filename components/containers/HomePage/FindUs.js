@@ -9,7 +9,7 @@ const FindUs = () => {
                 <div className='md:w-1/2 tracking-wider'>
                     <h1 className=' text-xl  text-white tracking-wider  font-base leading-[1]'>Contact</h1>
                     <div className=''>
-                        <Image src = "/spoon.png" width={45} height = {12} />
+                        <Image src = "/spoon.png" width={45} height = {12} alt ="img" />
                     </div>
                     <h1 className='text-6xl text-golden-color font-base my-8'>Find Us</h1>
                     <p className='text-white my-8 mt-12 '>Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 75G</p>
@@ -23,7 +23,7 @@ const FindUs = () => {
 
                 <div className=' md:w-1/2 lg:w-2/5 mx-auto lg:mx-0 w-full'>
                     <div className='relative aspect-[3/3] w-[100%] '>
-                        <Image src="/findus.png" layout='fill' objectFit='contain' />
+                        <Image src="/findus.png" layout='fill' objectFit='contain' alt ="img" />
                     </div>
                 </div>
             </div>

@@ -37,7 +37,7 @@ const Gallery = () => {
                 <div className=' px-8 w-3/4 lg:w-1/2 pr-12'>
                         <h1 className=' text-xl  text-white tracking-wider font-base leading-[1]'>Instagram</h1>
                         <div>
-                            <Image src = "/spoon.png" width={45} height = {12} />
+                            <Image src = "/spoon.png" width={45} height = {12} alt ="img" />
                         </div>
                         <h1 className='text-6xl text-golden-color font-base tracking-wider my-8'>Photo Gallery</h1>
                         <p className='text-grey-color font-alt'>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Volutpat Mattis Ipsum Turpis Elit Elit Scelerisque Egestas Mu.</p>
@@ -53,7 +53,7 @@ const Gallery = () => {
                                     {galleryImages.map((item, index) => {
                                         return (
                                             <div key={index} className=' w-[255px] md:w-[310px] rounded overflow-hidden inline-block aspect-[3/4] m-3 relative'>
-                                                <Image src={item} layout = "fill" objectFit='cover' />
+                                                <Image src={item} layout = "fill" objectFit='cover' alt ="img" />
                                                 <div className='absolute inset-0 bg-black-color/50 opacity-0 hover:opacity-100 cursor-pointer flex items-center justify-center text-3xl text-white transition-all duration-200'>
                                                     <BsInstagram />
                                                 </div>
