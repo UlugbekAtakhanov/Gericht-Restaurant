@@ -11,7 +11,7 @@ const NewsLetter = () => {
                     <div>
                         <Image src = "/spoon.png" width={45} height = {12} alt ="img" />
                     </div>
-                    <h1 className='text-7xl text-golden-color font-base tracking-wider mt-8'>Subscribe To Our Newsletter</h1>
+                    <h1 className='text-5xl sm:text-6xl text-golden-color font-base tracking-wider mt-8'>Subscribe To Our Newsletter</h1>
                     <p className='text-white mt-2'>And Never Miss Latest Updates!</p>
 
                     <input className='mt-12 w-full bg-transparent text-golden-color border-golden-color border p-2 rounded placeholder-grey-color text-sm tracking-wider font-base' type="text" placeholder='Enter your email address' />
